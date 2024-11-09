@@ -17,6 +17,6 @@ spec:           # Specifications about the object
     spec:         # Specifications for the pod
       containers:
         - name: react-front-end  # Name of the container
-          image: mohsem35/reverser-front:latest  # Docker image to use for the container
+          image: bossmanjerry/reverser-front:latest  # Docker image to use for the container
           ports:
             - containerPort: 80  # Port to expose on the container
