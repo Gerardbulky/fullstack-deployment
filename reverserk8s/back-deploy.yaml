@@ -18,6 +18,6 @@ spec:  # Deployment object specification
     spec:  # Specifications for the pod
       containers:  
         - name: flask-back-end  
-          image: mohsem35/reverser-back:v1
+          image: bossmanjerry/reverser-back:v1
           ports:  
             - containerPort: 5000  # Port 5000 exposed on the container
